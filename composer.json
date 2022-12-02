@@ -1,0 +1,26 @@
+{
+    "name": "rybachenka.yauheni/dom_document_extension",
+    "description": "Work with PHP DOMDocument",
+    "keywords": [
+        "rybachenka.yauheni",
+        "dom_document_extension"
+    ],
+    "homepage": "https://github.com/RybachenkaYauheni/dom_document_extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yayheni",
+            "email": "rybachenka.yauheni@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yayheniy\\PhpDomDocumentExtension\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-dom": "*"
+    }
+}
